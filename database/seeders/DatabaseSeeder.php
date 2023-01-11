@@ -11,11 +11,11 @@ class DatabaseSeeder extends Seeder
      *
      * @return void
      */
-    // public function run()
-    // {
-    //     $this->call(Proizvodjaci::class);
-    //     $this->call(Polovi::class);
-    //     $this->call(Parfemi::class);
-    //     $this->call(Users::class);
-    // }
+     public function run()
+     {
+        $this->call(Proizvodjaci::class);
+        $this->call(Polovi::class);
+        $this->call(Parfemi::class);
+        $this->call(Users::class);
+     }
 }
